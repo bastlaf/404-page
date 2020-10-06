@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Major Mono Display', monospace;
+    src: url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+}
+
+body {
+    font-family: 'Major Mono Display', monospace;
+    color : white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,1,15,1) 33%, rgba(111,144,150,1) 100%); 
+}
+
+img.ovni {
+    position : absolute;
+    top : 0%;
+    left : 50%;
+    display: block;
+    width: 50%;
+    height: auto;
+    transform: rotate(8deg)
+}
+
+h1 {
+    font-size: 8em;
+    position: absolute;
+    left : 10%;
+}
+
+h2 {
+    font-size: 3.5em;
+    position: absolute;
+    left : 20%;
+    top : 30%;
+}
+
+h3 {
+    font-size: 1.5em;
+    position: absolute;
+    left : 15%;
+    top : 50%;
+}
+
+a {
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 0.5em;
+    text-decoration: none;
+    color:white;
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: purple;
+    border : solid 2px #e0a2d9;
+}
