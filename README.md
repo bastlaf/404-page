@@ -1,1 +1,1 @@
-# 404-page
+https://bastlaf.github.io/404-page/
